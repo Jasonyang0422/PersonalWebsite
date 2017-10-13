@@ -1,0 +1,162 @@
+#first-section {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+
+.content-section {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.title-container {
+	z-index: 1000;
+	position: absolute;
+	top: 35%;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+}
+
+.subtitle {
+	margin-top: 20px;
+	font-weight: 100;
+}
+
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+
+.video-container video.fillWidth {
+    width: 100%;
+}
+
+.hidden {
+	display: none !important;
+}
+
+.arrow {
+	position: absolute;
+	z-index: 1000;
+	bottom: 3%;
+	left: 50%;
+}
+
+#second-section {
+	background-color: black;
+}
+
+#third-section {
+	padding-top: 8%;
+}
+
+#third-section h2 {
+	text-align: center;
+}
+
+#third-section .images-container img {
+	width: 20%;
+	height: 20%;
+	margin-right: 10%;
+	border: black 10px;
+}
+
+#third-section .images-container {
+	margin-top: 10%;
+	text-align: center;
+}
+
+#python_logo {
+	margin-top: 3%;
+	margin-right: 0px !important;
+}
+
+#nodejs_logo {
+	margin-top: 1%;
+}
+
+#android_logo {
+	margin-right: 0px !important;
+	margin-top: 5%;
+}
+
+#third-section .arrow {
+	left: 49% !important;
+}
+
+
+#fourth-section {
+	padding-top: 8%;
+}
+
+#fourth-section h2{
+	text-align: center;
+}
+
+#vonage {
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+#vonage .card-img-top{
+	margin-top: 8%;
+	margin-bottom: 21%;
+}
+
+#capgemini .card-img-top {
+	margin-bottom: 8%;
+}
+
+
+#fifth-section {
+	padding-top: 8%;
+}
+
+#fifth-section h2{
+	text-align: center;
+}
+
+.card-deck{
+	text-align: center;
+	margin-top: 10%;
+}
+
+#fifth-section .card-deck .card-img-top{
+	width: 60%;
+	height: 60%;
+	margin-left: 20%;
+}
+
+#bjtu {
+	padding-top: 2%;
+}
+
+
+
+
